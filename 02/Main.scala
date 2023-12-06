@@ -1,7 +1,6 @@
 import scala.util.matching.Regex
 
 case class CubeCounts(red: Int, green: Int, blue: Int)
-case class Game(id: Int)
 
 val gamePattern = """Game (\d+): (.*)""".r
 val redPattern = """(\d+) red""".r
